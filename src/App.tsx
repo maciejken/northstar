@@ -1,10 +1,7 @@
 import React, { FC } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
-export const Header: FC = () => {
-  return <header>Northstar</header>
-};
+import Header from './Header';
 
 function App() {
   return (
